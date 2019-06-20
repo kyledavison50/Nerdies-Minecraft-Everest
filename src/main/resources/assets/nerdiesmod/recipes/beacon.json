@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    " A ",
+    " A "  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:cake",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:baked_potato",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:beacon",
+    "data": 0
+  }
+}

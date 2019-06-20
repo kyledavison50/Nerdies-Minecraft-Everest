@@ -1,10 +1,11 @@
 package me.nerdies.minecraft.mod.donottouch.base
 
-import me.nerdies.minecraft.mod.donottouch.Nerdiesmod
+import net.minecraft.inventory.EntityEquipmentSlot
 import net.minecraft.item.Item
-import net.minecraft.item.ItemSword
+import me.nerdies.minecraft.mod.donottouch.Nerdiesmod
+import net.minecraft.item.ItemArmor
 
-open class SwordBase(val name: String, val material: ToolMaterial = ToolMaterial.WOOD): ItemSword(material)
+open class ArmorBase(material: ArmorMaterial = ArmorMaterial.IRON, slot: EntityEquipmentSlot, var name: String) : ItemArmor(material, 0, slot)
 {
     init
     {

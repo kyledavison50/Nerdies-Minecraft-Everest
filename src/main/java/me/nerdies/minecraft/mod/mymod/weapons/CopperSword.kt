@@ -13,7 +13,7 @@ class CopperSword: SwordBase("copper_sword")
         {
             target.setFire(10)
             target.health = 1f
-            target.knockBack(target, 50f, 20.toDouble(), 10.toDouble())
+            target.knockBack(target, 50f, .5, .5)
         }
         return super.hitEntity(stack, target, attacker)
     }
