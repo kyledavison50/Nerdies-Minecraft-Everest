@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "nerdiesmod",
+    "name": "Nerdies Mod",
+    "description": "Nerdies Mod",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "gurutwit"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": [
+      ""
+    ]
+  }
+]

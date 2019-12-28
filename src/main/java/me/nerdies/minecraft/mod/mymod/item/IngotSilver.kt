@@ -2,4 +2,4 @@ package me.nerdies.minecraft.mod.mymod.item
 
 import me.nerdies.minecraft.mod.donottouch.base.ItemBase
 
-class IngotCopper : ItemBase("ingot_copper")
+class IngotSilver : ItemBase("ingot_silver")
