@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " B ",
+    " S "  ],
+  "key": {
+    "B": [
+      {
+        "item": "minecraft:brick_block",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:sign",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "nerdiesmod:rainbow",
+    "data": 0
+  }
+}

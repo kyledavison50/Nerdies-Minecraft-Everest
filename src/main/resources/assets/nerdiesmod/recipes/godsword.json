@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    " R ",
+    " S "  ],
+  "key": {
+    "S": [
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "nerdiesmod:rainbow",
+        "data": 0
+      }
+    ],
+    "W": [
+      {
+        "item": "minecraft:wooden_sword",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "nerdiesmod:god_sword",
+    "data": 0
+  }
+}
