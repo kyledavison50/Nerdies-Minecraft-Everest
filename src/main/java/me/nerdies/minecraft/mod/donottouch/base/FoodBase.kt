@@ -6,13 +6,15 @@ import net.minecraft.item.ItemFood
 
 open class FoodBase(var name: String, var hunger: Int, var saturation: Float, var wolf: Boolean) : ItemFood(hunger, saturation, wolf)
 {
-    init {
+    init
+    {
         setRegistryName(name)
         translationKey = name
         creativeTab = Nerdiesmod.creativeTab
     }
 
-    fun registerItemModel() {
+    fun registerItemModel()
+    {
         Nerdiesmod.proxy.registerItemRenderer(this, 0, name)
     }
 }

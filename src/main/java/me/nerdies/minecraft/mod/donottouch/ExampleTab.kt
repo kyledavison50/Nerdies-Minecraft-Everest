@@ -12,7 +12,7 @@ class ExampleTab : CreativeTabs(ModInfo.MOD_ID)
     }
     override fun createIcon(): ItemStack
     {
-        return ItemStack(ModItems.ingotCopper)
+        return ItemStack(ModItems.copperIngot)
     }
 
     override fun hasSearchBar(): Boolean

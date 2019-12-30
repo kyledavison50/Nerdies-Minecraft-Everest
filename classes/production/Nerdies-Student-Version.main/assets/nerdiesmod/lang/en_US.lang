@@ -1,5 +1,17 @@
+# Items
+item.copper_ingot.name=Copper Ingot
+item.copper_sword.name=Copper Sword
+item.copper_helmet.name=Copper Helmet
+item.copper_chestplate.name=Copper Chestplate
+item.copper_leggings.name=Copper Leggings
+item.copper_boots.name=Copper Boots
+item.corn.name=Corn
+item.rainbow.name=Rainbow
+item.magic_stab.name=Magic Stab
+
+# Blocks
+tile.ore_copper.name=Copper Ore
+tile.cblock.name=C Block
+
 # Tabs
 itemGroup.nerdiesmod=Nerdies
-
-# Items
-item.ingot_copper.name=Copper Ingot
